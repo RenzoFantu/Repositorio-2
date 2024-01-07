@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mono Porfido</title>
+    <link rel="icon" href="logomono.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body id="body">
+    <div class="encabezado">
+        <div class="redes">
+            <a href="#" onclick="Alerta()"><i class="fa-brands fa-facebook" style="color: hsl(0, 0%, 0%);"></i></a>    
+            <a href="#" onclick="Alerta()"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            <a href="#" onclick="Alerta()"><i class="fa-brands fa-whatsapp" style="color: #000000;"></i></a>     
+        </div>
+        <div class="parrfo">
+            <p>Envío Gratis a todo Chile</p>
+        </div>
+
+        <div class="redes">
+            
+            <a href="#" onclick="Alerta()"><i class="fa-regular fa-envelope" style="color: #000000;" ></i></a>
+            <a href="#" onclick="Alerta()"><i class="fa-solid fa-phone" style="color: #000000;"></i></a>
+            
+        </div>
+        
+    </div>  
+    <header>
+            
+        <a href="" onclick="Alerta()"><img src="images/logomono3.png" alt="logo" height="100px"></a>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+             
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><i class="bi bi-x-lg"></i></button>
+            <a href="" onclick="Alerta()">Inicio</a>
+            <a href="" onclick="Alerta()">Nosotros</a>
+            <a href="" onclick="Alerta()">Contactanos</a>
+                
+        </nav>
+        
+   
+    </header>
+        
+        <div  id="hero">
+            <div class="boton">
+               <a href="#crud"><button class="boton-crud">Te invito a mi CRUD</button></a>
+            </div>   
+        </div>
+        
+        <section class="somos">
+            <h1>Mono Porfiado Store...❤️</h1>
+            <p>Somos una tienda online de bebés y niños que se preocupa por el cuidado y desarrollo de sus hijos. Ofrecemos productos innovadores y únicos con diseño sustentable, junto a un servicio personalizado y amigable. Creemos que cada niño es especial y ofrecemos productos que reflejen su personalidad y estilo. ¡Gracias por elegirnos!🐒</p>
+        </section>
+        <!-- agrego CRUD -->
+        <div class="container text-center">
+            <h1 id="crud">Javascript CRUD</h1>
+        </div>
+        <br>
+        <div class="container">
+            <div class="container mb-5">
+                <div class="row">
+                    
+                        <div class="mb-3">
+                          <label class="form-label">Correo electronico</label>
+                          <input type="email" class="form-control" id="inputEmail" placeholder="Correo Electronico">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Nombre completo">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Teléfono</label>
+                            <input type="number" class="form-control" id="inputPhone" placeholder="Telefono">
+                        </div>
+                        <div class="container">
+                            <button type="submit" class="btn btn-primary" id="btnAdd" onclick="AddData()">Eviar Datos</button>
+                            <button type="submit" class="btn btn-warning" id="btnUpdate" >Actualizar Datos</button>
+                            
+                            
+                        </div>
+                      
+                </div>
+                <hr>
+                <table class="table table-bordered" id="tableData">
+                    <thead>
+                        <tr>
+                            <th>Correo</th>
+                            <th>Nombre Completo</th>
+                            <th>Telefono</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                    </tbody>
+    
+                </table>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+
+        <h1 class="nuestros">Nuestros Mokey Products</h1>
+        <div class="cards">
+            
+            <a href="#"><div class="card1"></div></a>
+            <div class="card2"></div>
+            <div class="card3"></div>
+        </div>
+        
+    
+    <div class="banner">
+        <img src="images/Huason1.png" alt="Banner de la Página" width="100px">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse voluptate!
+        </p>
+    </div>
+    
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
