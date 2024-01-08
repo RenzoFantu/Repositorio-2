@@ -144,7 +144,6 @@ function deleteData(index) {
 function updateData(index) {
     // Cambiar visibilidad de botones
     document.getElementById("btnAdd").style.display = "none";
-    document.getElementById("btnDelete").style.display = "none";
     document.getElementById("btnUpdate").style.display = "block";
     
     let listPeople;
@@ -184,7 +183,6 @@ function updateData(index) {
 
             // Restaurar visibilidad de botones
             document.getElementById("btnAdd").style.display = "block";
-            document.getElementById("btnDelete").style.display = "block";
             document.getElementById("btnUpdate").style.display = "none";
             
         }
