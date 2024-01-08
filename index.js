@@ -1,3 +1,5 @@
+// Para menu hamburguesa
+
 const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
@@ -189,6 +191,7 @@ function updateData(index) {
     };
 }
 
+//Se agregó para botones en general
 function Alerta(){
     alert ("Estamos trabajando para ti mono feo, te invito a revisar mi CRUD")
 }
