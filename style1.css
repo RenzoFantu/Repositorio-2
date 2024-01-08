@@ -147,15 +147,14 @@ p {
     border-radius: 40px;
     margin: 30px;
     width: 33.3vh;
-    height: 33.3vh;
-
-    
+    height: 33.3vh;   
 }
+
 .card1:hover{
     width: 34.3vh;
     height: 34.3vh;  
-      
 }
+
 .card2{
     background-image: linear-gradient(
         0deg,
@@ -185,9 +184,6 @@ p {
     
     
 }
-
-
-
 
 .somos {
     
@@ -279,4 +275,12 @@ p {
 .boton a {
     text-decoration: none;
     font-size: xx-large;
+}
+.btn-primary{
+    background-color: #F2D22B !important;
+    color:black !important;
+}
+.btn-warning{
+    background-color: #F2D22B !important;
+    color:black !important;
 }
